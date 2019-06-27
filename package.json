@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CongTran96/nodeBB-ex-plugin/issues"
   },
-  "homepage": "https://github.com/CongTran96/nodeBB-ex-plugin#readme"
+  "homepage": "https://github.com/CongTran96/nodeBB-ex-plugin#readme",
+  "dependencies": {
+    "np": "^5.0.3"
+  }
 }
