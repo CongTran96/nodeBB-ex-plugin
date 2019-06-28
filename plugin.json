@@ -1,12 +1,11 @@
 {
     "id": "nodebb-plugin-first",
     "url": "https://github.com/CongTran96/nodeBB-ex-plugin",
-    "library": "./plugin.js",
+    "library": "./library.js",
     "staticDirs": {
         "public": "./public"
     },
     "hooks": [
-        { "hook": "filter:post.save", "method": "filter" },
         { "hook": "action:post.save", "method": "emailme" }
     ],
     "scripts": [
